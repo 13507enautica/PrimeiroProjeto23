@@ -29,6 +29,7 @@ public class Exercicios {
             System.out.println(num);
             n0=n1;
             n1=num;
+
         }
     }
 }
