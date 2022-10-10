@@ -29,7 +29,20 @@ public class Exercicios {
             System.out.println(num);
             n0=n1;
             n1=num;
-
         }
+        System.out.println("\n6. Lista de numeros dependente da paridade, ate chegar a 1"); //exercicio 6, x até 1
+        int x=13;
+        System.out.printf("\nPara x = %d\n", x);
+        while(x!=1) {
+            if(x%2 == 0) {
+                x = x / 2;
+                System.out.printf("%d -> ",x);
+            }
+            else {
+                x = 3*x + 1;
+                System.out.printf("%d -> ",x);
+            }
+        }
+        System.out.print("Fim");
     }
 }
